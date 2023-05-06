@@ -28,6 +28,7 @@ h1 {
     box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.3);
     transform: translateX(400%); /* Get cards off the screen */
     transition: transform 0.4s ease;
+    overflow-x: hidden;
 }
 
 .box:nth-of-type(even) {
